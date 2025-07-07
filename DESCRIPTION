@@ -1,0 +1,22 @@
+Package: eda.mckenzie.page
+Type: Package
+Title: Automated Exploratory Data Analysis with optional AI-Powered Insights
+Version: 0.1.0
+Authors@R: person("Keith Ngamphon McKenzie", email = "keith@mckenzie.page", role = c("aut", "cre"))
+Description: Generates professional EDA reports with statistical summaries, and AI-powered insights. Can use OpenAI API to provide 
+    plain English explanations of findings, potential issues, outliers, and data 
+    quality concerns. Includes statistical test recommendations and comprehensive 
+    HTML/PDF report generation.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
+Imports:
+    stats,
+    utils,
+    graphics
+Suggests:
+    testthat (>= 3.0.0),
+    devtools,
+    roxygen2
+VignetteBuilder: knitr
